@@ -21,7 +21,7 @@ const Topbar = () => {
 
 
   return (
-   <Box display="flex" justifyContent="space-between" p={2}>
+    <Box display="flex" justifyContent="space-between" p={2}>
       {/* SEARCH BAR */}
       <Box
         display="flex"
@@ -34,15 +34,21 @@ const Topbar = () => {
         {/* <IconButton>
           <NotificationsOutlinedIcon />
         </IconButton> */}
-        
-        <Select
+<Box m="1px" >
+  <p>Settings</p>
+          <Box display="flex" justifyContent="center" alignItems="center">
+
+          </Box>
+        <Select 
+ 
           sx={{
             marginTop: 0,
             width: 90,
             height: 40,
+            
           }}
         >
-          <MenuItem onClick={() => fire.auth().signOut()} >
+          <MenuItem  onClick={() => fire.auth().signOut()} >
             <IconButton>
               <PersonOutlinedIcon />
             </IconButton>
@@ -72,7 +78,7 @@ const Topbar = () => {
         {/* <IconButton>
         <SettingsOutlinedIcon/>
       </IconButton> */}
-
+</Box>
       </Box>
     </Box>
   )
