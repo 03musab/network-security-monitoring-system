@@ -57,7 +57,7 @@ export const mockDataContacts = [
     address: "A Wing, Dalamal Towers, Free Press Journal Marg, Nariman Point",
     city: "Mumbai",
     zipCode: "1234",
-    registrarId: 92197,
+    registrarId: 20817,
   },
   {
     id: 2,
@@ -68,7 +68,7 @@ export const mockDataContacts = [
     address: "2, Prabhat Rd, Deccan Gymkhana ",
     city: "Mumbai",
     zipCode: "1234",
-    registrarId: 92197,
+    registrarId: 20821,
   },
   {
     id:3,
@@ -79,7 +79,7 @@ export const mockDataContacts = [
     address: "Sea Bird Building, Byramji Jeejeebhoy Road, Bandra, Bandra West",
     city: "Mumbai",
     zipCode: "1234",
-    registrarId: 92197,
+    registrarId: 20831,
   },
   {
     id:4,
@@ -90,7 +90,7 @@ export const mockDataContacts = [
     address: "Level 3, Fun Republic Mall, Andheri West",
     city: "Mumbai",
     zipCode: "1234",
-    registrarId: 92197,
+    registrarId: 20829,
   },
   {
     id:5,
