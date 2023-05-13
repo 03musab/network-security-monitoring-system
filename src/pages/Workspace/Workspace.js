@@ -154,7 +154,7 @@ const Workspace = () => {
                               <h6>#</h6>
                             </th>
                             <th scope="col">
-                              <h6>use</h6>
+                              <h6>user</h6>
                             </th>
                            <th scope="col">
                               <h6>Email</h6>
